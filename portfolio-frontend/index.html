@@ -356,9 +356,10 @@
                 } else {
                     const errorData = await response.json();
                     console.error('API Error:', errorData);
+                    alert("Submission Failed Details:\n" + JSON.stringify(errorData, null, 2));
+
                     let errorMessage = 'Failed to send message.';
                     if (errorData) {
-                        // Extract first error message
                         const firstKey = Object.keys(errorData)[0];
                         if (firstKey) {
                             errorMessage += ` ${firstKey}: ${errorData[firstKey]}`;

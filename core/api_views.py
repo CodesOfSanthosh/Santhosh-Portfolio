@@ -1,5 +1,6 @@
 from rest_framework import status
-from rest_framework.decorators import api_view
+from rest_framework.decorators import api_view, permission_classes, authentication_classes
+from rest_framework.permissions import AllowAny
 from rest_framework.response import Response
 from .serializers import ContactSerializer
 import logging
@@ -7,6 +8,8 @@ import logging
 logger = logging.getLogger(__name__)
 
 @api_view(['POST'])
+@authentication_classes([])
+@permission_classes([AllowAny])
 def contact_api(request):
     """
     API endpoint for contact form submission
