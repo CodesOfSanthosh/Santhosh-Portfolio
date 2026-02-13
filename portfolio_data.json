@@ -1,0 +1,144 @@
+{
+  "skills": [
+    {
+      "name": "HTML",
+      "icon_class": "fab fa-html5"
+    },
+    {
+      "name": "CSS",
+      "icon_class": "fab fa-css3-alt"
+    },
+    {
+      "name": "Bootstrap",
+      "icon_class": "fab fa-bootstrap"
+    },
+    {
+      "name": "React",
+      "icon_class": "fab fa-react"
+    },
+    {
+      "name": "Django",
+      "icon_class": "fab fa-python"
+    },
+    {
+      "name": "Python",
+      "icon_class": "fab fa-python"
+    },
+    {
+      "name": "MySQL",
+      "icon_class": "fas fa-database"
+    },
+    {
+      "name": "Postman",
+      "icon_class": "fas fa-paper-plane"
+    },
+    {
+      "name": "VS Code",
+      "icon_class": "fas fa-code"
+    },
+    {
+      "name": "SQLite",
+      "icon_class": "fas fa-database"
+    },
+    {
+      "name": "Git",
+      "icon_class": "fab fa-git-alt"
+    },
+    {
+      "name": "GitHub",
+      "icon_class": "fab fa-github"
+    }
+  ],
+  "projects": [
+    {
+      "title": "Blog Django",
+      "description": "A blog application built with Django.",
+      "tech_stack": [
+        "Django",
+        "Python"
+      ],
+      "github_link": "https://github.com/CodesOfSanthosh/blog-django",
+      "live_link": "",
+      "image_url": "/media/projects/blog.jpg"
+    },
+    {
+      "title": "Django E-commerce",
+      "description": "An e-commerce platform built with Django.",
+      "tech_stack": [
+        "Django",
+        "Python"
+      ],
+      "github_link": "https://github.com/CodesOfSanthosh/django-ecommerce",
+      "live_link": "",
+      "image_url": "/media/projects/ecommerce.jpg"
+    },
+    {
+      "title": "React Django Job Portal",
+      "description": "A full-stack job portal application built with React and Django.",
+      "tech_stack": [
+        "React",
+        "Django",
+        "Python"
+      ],
+      "github_link": "https://github.com/CodesOfSanthosh/react-django-job-portal",
+      "live_link": "",
+      "image_url": "/media/projects/job_portal.jpg"
+    },
+    {
+      "title": "Responsive Bootstrap Project",
+      "description": "A responsive website utilizing the Bootstrap framework.",
+      "tech_stack": [
+        "Bootstrap",
+        "HTML",
+        "CSS"
+      ],
+      "github_link": "https://github.com/CodesOfSanthosh/responsive-bootstrap",
+      "live_link": "https://codesofsanthosh.github.io/responsive-bootstrap/",
+      "image_url": "/media/projects/bootstrap.jpg"
+    },
+    {
+      "title": "Responsive HTML CSS Project",
+      "description": "A fully responsive website built with raw HTML and CSS.",
+      "tech_stack": [
+        "HTML",
+        "CSS"
+      ],
+      "github_link": "https://github.com/CodesOfSanthosh/responsive-html-css-project",
+      "live_link": "https://codesofsanthosh.github.io/responsive-html-css-project/",
+      "image_url": "/media/projects/markus-winkler-bBm9Icw-_5M-unsplash.jpg"
+    },
+    {
+      "title": "Spotify Clone",
+      "description": "A clone of the Spotify web player using HTML, CSS, and potentially JavaScript.",
+      "tech_stack": [
+        "HTML",
+        "CSS"
+      ],
+      "github_link": "https://github.com/CodesOfSanthosh/SpotifyClone",
+      "live_link": "https://codesofsanthosh.github.io/SpotifyClone/",
+      "image_url": "/media/projects/spotify.jpg"
+    }
+  ],
+  "certifications": [
+    {
+      "title": "Using Basic Formulas and Functions in Microsoft Excel",
+      "issuing_authority": "Coursera",
+      "certificate_link": "https://coursera.org/share/af1c8cb6a63930d23e047ca246ca1207"
+    },
+    {
+      "title": "Introduction To Python",
+      "issuing_authority": "Coursera",
+      "certificate_link": "https://coursera.org/share/2db54efd705a98a03399bbe959ea32e2"
+    },
+    {
+      "title": "SQL for Beginners: Querying Data",
+      "issuing_authority": "Coursera",
+      "certificate_link": "https://coursera.org/share/aeceb1ffa126e5dcc22eb138d1188c6b"
+    },
+    {
+      "title": "Generative AI for Everyone",
+      "issuing_authority": "Coursera",
+      "certificate_link": "https://coursera.org/share/17bf72d439707a53b1181a089bfaac1b"
+    }
+  ]
+}
